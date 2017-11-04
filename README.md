@@ -18,7 +18,7 @@ We decided to create an interactive app which would help children learn more abo
 
 ## My part
 
-I created more than half of our API and wrote the JavaScript and CSS code which renders the whole quiz section in the browser. My JS code randomises the order of questions and answers displayed and makes sure that none of them appears twice whereas my CSS code uses FlexBox to position and scale elements on the webpage.
+I created more than half of our API and wrote the JavaScript and CSS code which renders the whole quiz section in the browser. My JS code randomises the order of questions and answers displayed and makes sure that none of them appears twice. My CSS code uses FlexBox to position and scale elements on the webpage.
 
 ## If I had more time...
 
