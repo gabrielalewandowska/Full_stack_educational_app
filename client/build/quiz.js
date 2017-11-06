@@ -184,5 +184,5 @@ var initializeQuizSection = function(habitat) {
   console.log("initializeQuiz gets called");
   displayWelcomeText(habitat);
   displayJournal();
-  makeQuizRequest("http://localhost:3000/api/quiz", getSetsByHabitat, habitat);
+  makeQuizRequest(document.location.origin + "/api/quiz" || "http://localhost:3000/api/quiz", getSetsByHabitat, habitat);
 }
