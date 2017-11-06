@@ -12,7 +12,7 @@ var createHabitatButtons = function(){
       seaBtn.src="./public/images/uwbutton.png";
       seaDiv.appendChild(seaBtn);
       seaDiv.addEventListener("click", function() {
-        makeRequest('http://localhost:3000/api/animals/jungle', renderSeaInfo);
+        makeRequest(document.location.origin + "/api/animals/jungle" || 'http://localhost:3000/api/animals/jungle', renderSeaInfo);
         // createQuizButton("Underwater");
         var textBox = document.getElementById("text-box2");
         textBox.id = "text-box";
@@ -39,7 +39,7 @@ var createHabitatButtons = function(){
       jungleBtn.src = "./public/images/leaf.png";
       jungleDiv.appendChild(jungleBtn);
       jungleBtn.addEventListener("click", function() {
-        makeRequest('http://localhost:3000/api/animals/jungle', renderJungleInfo);
+        makeRequest(document.location.origin + "/api/animals/jungle" || 'http://localhost:3000/api/animals/jungle', renderJungleInfo);
         // createQuizButton("Jungle");
 
           var textBox = document.getElementById("text-box2");
