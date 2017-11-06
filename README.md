@@ -33,3 +33,4 @@ Navigate to the folder containing the project, open terminal and enter:
 - in a new tab enter "mongo < server/db/seeds.js"
 - enter "nodemon server/server.js"
 - open browser and enter "localhost:3000"
+- select "JUNGLE" or "UNDERWATER" from the map view
