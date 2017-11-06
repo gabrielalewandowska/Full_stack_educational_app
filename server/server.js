@@ -21,6 +21,6 @@ app.get("/home", function(req, res) {
 
 app.use("/api/animals", animalRouter);
 
-app.listen(80, function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log("it worked");
 });
