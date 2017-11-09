@@ -86,6 +86,7 @@ var timedText = function() {
 timedText();
 
 var renderMapView = function() {
+  console.log("map view called");
     createHabitatButtons();
     setInterval(draw1,180);
     setInterval(draw,130);

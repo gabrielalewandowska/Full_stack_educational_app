@@ -1,4 +1,4 @@
-use animals;
+// use animals;
 
 db.dropDatabase();
 

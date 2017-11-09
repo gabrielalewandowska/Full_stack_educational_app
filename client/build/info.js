@@ -188,6 +188,7 @@ for (animal of animalData) {
       backDiv.appendChild(p)
 }
 window.addEventListener('DOMContentLoaded', function() {
+  console.log("jungle / info");
   makeRequest(document.location.origin + "/api/animals/jungle" || 'http://localhost:3000/api/animals/jungle', renderJungleInfo)
 });
 
