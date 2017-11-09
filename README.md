@@ -1,6 +1,7 @@
 # Educational App
 
 A group project for my software development course at CodeClan.
+You can view the app here: https://animals-of-the-world.herokuapp.com/
 
 ## Project Brief
 
@@ -23,14 +24,3 @@ I created more than half of our API and wrote the JavaScript and CSS code which 
 ## If I had more time...
 
 I would like to refactor the code to make it more DRY and flexible.
-
-## How to run the project on your machine
-Navigate to the folder containing the project, open terminal and enter:
-- npm init - y
-- npm i express
-- npm i mongodb
-- enter "mongod"
-- in a new tab enter "mongo < server/db/seeds.js"
-- enter "nodemon server/server.js"
-- open browser and enter "localhost:3000"
-- select "JUNGLE" or "UNDERWATER" from the map view
