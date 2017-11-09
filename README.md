@@ -1,6 +1,6 @@
 # Educational App
 
-A group project for my software development course at CodeClan.
+A group project for my software development course at CodeClan.<br/>
 You can view the app here: https://animals-of-the-world.herokuapp.com/
 
 ## Project Brief
