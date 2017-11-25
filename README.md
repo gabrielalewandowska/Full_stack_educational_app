@@ -1,6 +1,7 @@
 # Educational App
 
 A group project for my software development course at CodeClan.<br/>
+Since we had only 6 days to deliver the app, we managed to finish two habitats only: the JUNGLE and the UNDERWATER world.<br/>
 You can view the app here: https://animals-of-the-world.herokuapp.com/
 
 ## Project Brief
@@ -23,4 +24,4 @@ I created more than half of our API and wrote the JavaScript and CSS code which 
 
 ## If I had more time...
 
-I would like to refactor the code to make it more DRY and flexible.
+I would like to finish the remaining habitats and to refactor the code in order to make it more DRY and modular.
