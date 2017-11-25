@@ -1,7 +1,7 @@
 # Educational App
 
 A group project for my software development course at CodeClan.<br/>
-Since we had only 6 days to deliver the app, we managed to finish two habitats only: the JUNGLE and the UNDERWATER world.<br/>
+Since we had only 6 days to deliver the app, we managed to finish two habitats only: the JUNGLE and the UNDERWATER world.
 You can view the app here: https://animals-of-the-world.herokuapp.com/
 
 ## Project Brief
